@@ -1,0 +1,109 @@
+body {
+  margin: 0 auto;
+  background-color: white;
+}
+
+/*#search_submit_button {
+    display: block;
+}*/
+nav {
+  text-align: right;
+  padding: 20px;
+  position: static;
+}
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  font-style: Sans-serif;
+}
+nav a:hover {
+  text-decoration: underline black;
+}
+
+div {
+  padding: 20px;
+  text-align: center;
+  margin: 190px auto;
+  /*margin: 25% 25%;
+  align-items: center;*/
+  height: calc(100% - 560px);
+}
+
+form {
+  text-align: center;
+  /* display: grid;*/
+  grid-template-rows: 1;
+  position: relative;
+  /*#search_value_button:active {
+      box-shadow: 1px 1px 2px 1px #d7d7d7;
+      box-shadow: 10px 10px rgb(213, 209, 209);
+      border: 4px groove rgb(252, 249, 249);
+  }*/
+}
+form input {
+  margin: 20px;
+  text-align: center;
+}
+form #search_submit_button, form #lucky_button {
+  display: block;
+  text-align: center;
+  margin: 20px 600px;
+  background-color: #f8f8f8;
+  outline: none;
+  padding: 10px;
+  border: none;
+}
+form #search_submit_button:hover, form #lucky_button:hover {
+  border: 1px solid rgb(173, 173, 173);
+  padding: 9px;
+  border-radius: 5px;
+}
+form #search_submit_button:active, form #lucky_button:active {
+  border: 1px solid rgb(73, 73, 214);
+  border-radius: 5px;
+}
+form #lucky_button {
+  margin: 5px 800px;
+  position: absolute;
+  top: 100px;
+  left: -80px;
+}
+form #search_value_button {
+  align-self: center;
+  border-radius: 23px;
+  height: 30px;
+  border: 2.5px groove rgba(246, 241, 241, 0.3);
+  width: 500px;
+  outline: none;
+  padding: 5px 40px;
+}
+form #search_value_button:hover {
+  box-shadow: 1px 1px 1px 1.5px #d7d7d7;
+  outline: none;
+}
+form img {
+  width: 18px;
+  height: 20px;
+  position: absolute;
+}
+form #image2 {
+  top: 33px;
+  left: 470px;
+}
+form #image1 {
+  width: 15px;
+  top: 33px;
+  left: 1007px;
+  display: hidden;
+}
+
+.images-htm {
+  position: relative;
+  top: -8px;
+  left: -60px;
+  color: #4285f4;
+}
+
+/*# sourceMappingURL=style.css.map */
